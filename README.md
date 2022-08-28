@@ -4,11 +4,10 @@
 
 ```bash
 $ ./main -help
-Usage of ./g:
+Usage of ./main:
   -t, --theme string   参数主题 (default "后端开发")
   -c, --times uint32   生成次数 (default 10)
   -w, --words uint32   生成字数 (default 50)
-pflag: help requested
 $ ./main -t 后端开发 -c 10 -w 50
 在日常生活中，要加强专业知识的学习，时刻坚持不懂就问，不明白就多学的态度，踏踏实实做好手中的每一件事，在实际后端开发工作中，要更加积极主动的向领导请教遇到的问题。
 
