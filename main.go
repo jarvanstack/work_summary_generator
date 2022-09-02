@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"math/rand"
 	"os"
+	"time"
 	"strings"
 	"unicode/utf8"
 
@@ -86,6 +87,7 @@ func generate(theme string, times int, wordCount int) {
 }
 
 func randomOne(datas []string) string {
+	rand.Seed(time.Now().UnixNano())
 	return datas[rand.Intn(len(datas))]
 }
 
